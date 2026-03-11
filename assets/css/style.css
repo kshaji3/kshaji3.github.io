@@ -1402,6 +1402,7 @@ textarea.form-input::-webkit-resizer { display: none; }
   .service-icon-box {
     margin-bottom: 0;
     margin-top: 5px;
+	color: var(--orange-yellow-crayola);
   }
 
   .service-content-box { text-align: left; }
@@ -1879,4 +1880,34 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .timeline-text { max-width: 700px; }
 
+}
+
+.paper-links {
+    display: inline-block;
+}
+
+.paper-links a {
+    display: inline;
+    text-decoration: none;
+    color: #6a5acd; /* optional: nice purple link */
+}
+.paper-entry {
+    margin-bottom: 24px;
+}
+
+.paper-entry h3 {
+    margin-bottom: 6px;
+}
+
+.paper-entry .authors {
+    margin: 0 0 1px 0;
+}
+
+.paper-entry .paper-links {
+    margin: 0;
+}
+
+.news li { 
+	list-style: auto; 
+	margin-left: 15px;
 }
