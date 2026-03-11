@@ -1105,6 +1105,21 @@ main {
 
 .project-detail-text p { margin-bottom: 12px; }
 
+.project-detail-text ul,
+.project-detail-text ol {
+  margin: 0 0 12px 20px;
+}
+
+.project-detail-text ul li {
+  list-style: disc;
+  margin-bottom: 6px;
+}
+
+.project-detail-text ol li {
+  list-style: decimal;
+  margin-bottom: 6px;
+}
+
 .project-detail-images {
   flex: 0 0 35%;
   display: flex;
