@@ -1892,7 +1892,47 @@ textarea.form-input::-webkit-resizer { display: none; }
     color: #6a5acd; /* optional: nice purple link */
 }
 .paper-entry {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
     margin-bottom: 24px;
+}
+
+.paper-text {
+    flex: 1;
+}
+
+.paper-image {
+    flex: 0 0 35%;
+    background: var(--onyx);
+    border-radius: 10px;
+}
+
+.paper-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 6px;
+}
+
+.paper-image-grid {
+    display: flex;
+    gap: 6px;
+    align-items: flex-start;
+}
+
+.paper-image-grid img:nth-child(1) {
+    flex: 123 0 0;
+    width: 0;
+    height: auto;
+    border-radius: 6px;
+}
+
+.paper-image-grid img:nth-child(2) {
+    flex: 92 0 0;
+    width: 0;
+    height: auto;
+    border-radius: 6px;
 }
 
 .paper-entry h3 {
