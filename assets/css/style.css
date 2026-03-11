@@ -504,6 +504,11 @@ main {
   line-height: 1.6;
 }
 
+.about-text a {
+  color: #6a5acd;
+  display: inline;
+}
+
 .about-text p { margin-bottom: 15px; }
 
 
