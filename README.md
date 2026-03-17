@@ -1,7 +1,7 @@
-# Karthik Shaji Personal Weebsite
+# Karthik Shaji Personal Website
 
 ## Credit:
-Using the vCard Github Template:
+Uses a modified form of the vCard Github Template:
 https://github.com/codewithsadee/vcard-personal-portfolio
 ## License
 
