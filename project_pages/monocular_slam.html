@@ -48,10 +48,22 @@
             <p>Zelin Zhao, Yongxin Chen</p>
 
             <h3>Overview/Motivation</h3>
-            <p></p>
+            <p>We developed a method that fused a metric, single-frame foundation model (UniDepthV2), with a multi-frame scale-free
+              geometric foundation model (VGGT) to perform metric-level monocular semantic 3DGS SLAM. We decoupled the mapping and tracking
+              to prevent uncorrected coupling-induced correction, and introduced a method of online reliability optimization through spatial 
+              depth frequency analysis. We also used semantic object landmarks (we used SAM2 for semantic masking) to provide another method
+              to correct frame-dependent metric-depth scale error. </p>
+
+            <div style="text-align: center; margin: 16px 0;">
+              <img src="../assets/personal_images/slam_system_flow.png" alt="Algorithm overview" style="width: 100%; height: auto; background: #fff; padding: 8px; border-radius: 10px;">
+              <p class="img-caption" style="color: var(--light-gray-70); font-size: var(--fs-8); margin-top: 6px;">Algorithm Overview</p>
+            </div>
 
             <h3>Results/Contributions</h3>
-            <p></p>
+            <p><ol>
+              <li>We obtained competitive results in certain scenes in both TUM RGB-D and ScanNet with respect to SE(3) error, as well as rendering characteristics (PSNR, LPIPS, SSIM).</li>
+              <li>We presented a method of consistency analysis via spatial depth frequencies to fuse foundation models with complementary inference strengths.</li>
+            </ol></p>
 
             <h3>Relevant Links</h3>
             <p class="paper-links">
@@ -61,9 +73,14 @@
 
           <div class="project-detail-images">
             <img src="../assets/personal_images/s3_depth_fusion.png" alt="S3 metric fused depth from UniDepthV2 and VGGT">
+            <p class="img-caption">Complementary Depth Fusion</p>
+
+            <img src="../assets/personal_images/slam_loop_closure_drift.png" alt="Drift and loop-closure corrections on ScanNet">
+            <p class="img-caption">Drift and Loop-Closure Corrections (ScanNet)</p>
           </div>
 
         </div>
+
 
       </article>
 
