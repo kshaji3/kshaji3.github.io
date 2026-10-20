@@ -48,10 +48,20 @@
             <p>Chisung Kim, John D'Amato, Edvard Bruun, Frank Dellaert</p>
 
             <h3>Overview/Motivation</h3>
-            <p></p>
+            <p>This project developed a framework for online motion planning and estimation for 
+              an 18 DoF system consisting of two robot arms which held a gripper and a nail gun. We
+              performed optimization on a single factor graph using a combination of concrete and learned 
+              constraints (factors). It built on prior work on Simultaneous Trajectory Estimation and Planning (STEAP), and
+              we demonstrated the capabilities of our method by building a post-and-lintel, as
+              shown in the figure here.
+            </p>
 
             <h3>Results/Contributions</h3>
-            <p></p>
+            <p><ol>
+              <li>We demonstrated feasible online replanning and estimation in a high-dimensional and tightly-constrained workspace, building a post-and-lintel using two robots.</li>
+              <li>We utilized a single factor graph to plan trajectories around obstacles and self-collision constraints, combining it with a learned cable-deformation constraint and measurement updates.</li>
+              <li>Collaboration with the <a href="https://www.bar-lab.org/">Bruun Automation Research Group</a> in Georgia Tech College of Civil and Environmental Engineering</li>
+            </ol></p>
 
             <h3>Relevant Links</h3>
             <p class="paper-links">
@@ -60,7 +70,14 @@
           </div>
 
           <div class="project-detail-images">
-            <img src="../assets/personal_images/abb_robot_cell.jpg" alt="ABB construction robot cell">
+            <img src="../assets/personal_images/abb_robot_cell.jpg" alt="ABB construction robot cell" style="width: 75%; margin: 0 auto;">
+            <p class="img-caption">Complete Post-and-Lintel</p>
+
+            <img src="../assets/personal_images/construction_robot_description.png" alt="Robot system description" style="width: 75%; margin: 0 auto;">
+            <p class="img-caption">Robot Description</p>
+
+            <img src="../assets/personal_images/construction_assembly_sequence.png" alt="Post-and-lintel assembly sequence" style="width: 75%; margin: 0 auto;">
+            <p class="img-caption">Assembly Sequencing</p>
           </div>
 
         </div>
